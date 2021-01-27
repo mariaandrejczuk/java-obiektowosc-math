@@ -15,7 +15,10 @@ public class MathExample {
         numberRepo.displayAll();
 
         double min = numberRepo.findMin();
-        System.out.println("Min value: "+min);
+        System.out.println("Min value: " + min);
+
+        double max = numberRepo.findMax();
+        System.out.println("Max value: " + max);
     }
 }
 
