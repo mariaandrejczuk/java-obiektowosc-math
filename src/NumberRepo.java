@@ -32,4 +32,12 @@ public class NumberRepo {
         }
         return max;
     }
+
+    double[] logNumbers() {
+        double[] temp = new double[numbers.length];
+        for (int i = 0; i < numbers.length; i++) {
+            temp[i] = Math.log(numbers[i]);
+        }
+        return temp;
+    }
 }
